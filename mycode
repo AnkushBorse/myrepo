@@ -1,0 +1,24 @@
+created new branch using: git branch test0
+
+we can list branch using: git branch
+
+to checkout the branch: git checkout test0
+
+by creating brach whatever changes happens we have to perform followings:
+
+git add *
+git commit -m "message"
+git push origin test0 (here we first need to push into branch)
+
+git checkout main (go return to main)
+
+for merge: git merge test0
+
+to get changes of test0 branch into main we have to again perform followings:
+git push origin main
+
+to delete branch:
+
+git branch -d test0
+git push origin --delete test
+git push origin main
